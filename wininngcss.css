@@ -1286,3 +1286,574 @@ ul.intro-features img {
 	vertical-align: top !important;
 	margin-top: 2px !important;
 }
+
+/*________________________________*/
+
+@media (max-width: 992px) {
+
+	.text-column {
+		padding-right: 15px;
+		float: none;
+	}
+
+	.form-column {
+		padding-left: 15px;
+		margin-top: -80px;
+		margin-bottom: 80px;
+		float: left;
+	}
+
+	.left-form .text-column {
+		padding-left: 15px;
+		float: none;
+	}
+
+	.left-form .form-column {
+		padding-right: 15px;
+	}
+
+	.submit-arrow {
+		display: none;
+	}
+
+	.intro-image {
+		display: none;
+	}
+
+	.clients {
+		margin-top: 20px;
+		float: left;
+		width: 100%;
+	}
+
+	.clients * {
+		text-align: center;
+	}
+
+	.pricing-table {
+		margin-bottom: 50px;
+	}
+
+	.pricing-table.featured {
+		margin-top: 0;
+	}
+
+	.testimonial-block {
+		padding: 50px 80px;
+	}
+
+	.split-columns .column {
+		padding-bottom: 80px;
+	}
+
+	.bottom-cta-image {
+		display: none;
+	}
+
+	.content {
+		text-align: center;
+	}
+
+}
+
+@media (max-width: 768px) {
+
+	
+
+}
+
+@media (max-width: 480px) {
+
+	h1 {
+		font-size: 28px;
+		line-height: 34px;
+	}
+
+	h2 {
+		font-size: 20px;
+		line-height: 28px;
+	}
+
+	p.intro-description {
+		width: 100%;
+	}
+
+	ul.intro-features li {
+		line-height: 36px;
+	}
+
+	ul.intro-features img {
+		margin: 0;
+		margin-right: 30px;
+	}
+
+	.main-form input[type="submit"] {
+		font-size: 18px;
+	}
+
+	.testimonial-block {
+		padding: 30px;
+	}
+
+}
+
+
+/**/
+
+.container {
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.container:before,
+.container:after {
+	content: " ";
+	display: table;
+}
+
+.container:after {
+	clear: both;
+}
+
+.row {
+	margin-left: -15px;
+	margin-right: -15px;
+}
+
+.row:before,
+.row:after {
+	content: " ";
+	display: table;
+}
+
+.row:after {
+	clear: both;
+}
+
+.column-10,
+.column-20,
+.column-25,
+.column-30,
+.column-33,
+.column-40,
+.column-50,
+.column-60,
+.column-66,
+.column-70,
+.column-75,
+.column-80,
+.column-90,
+.column-1000 {
+	position: relative;
+  	min-height: 1px;
+  	padding-left: 15px;
+  	padding-right: 15px;
+}
+
+@media (min-width: 768px) {
+
+	.container {
+    	max-width: 750px;
+	}
+
+}
+
+@media (min-width: 992px) {
+
+	.container {
+    	max-width: 970px;
+	}
+
+	.column-10,
+	.column-20,
+	.column-25,
+	.column-30,
+	.column-33,
+	.column-40,
+	.column-50,
+	.column-60,
+	.column-66,
+	.column-70,
+	.column-75,
+	.column-80,
+	.column-90,
+	.column-1000 {
+		float: left;
+	}
+
+	.column-10 {
+		width: 10%;
+	}
+
+	.column-20 {
+		width: 20%;
+	}
+
+	.column-25 {
+		width: 25%;
+	}
+
+	.column-30 {
+		width: 30%;
+	}
+
+	.column-33 {
+		width: 33.33333333333333%;
+	}
+
+	.column-40 {
+		width: 40%;
+	}
+
+	.column-50 {
+		width: 50%;
+	}
+
+	.column-60 {
+		width: 60%;
+	}
+
+	.column-66 {
+		width: 66.66666666666666%;
+	}
+
+	.column-70 {
+		width: 70%;
+	}
+
+	.column-75 {
+		width: 75%;
+	}
+
+	.column-80 {
+		width: 80%;
+	}
+
+	.column-90 {
+		width: 90%;
+	}
+
+	.column-1000 {
+		width: 100%;
+	}
+
+	.offset-10 {
+		margin-left: 10%;
+	}
+
+	.offset-20 {
+		margin-left: 20%;
+	}
+
+	.offset-25 {
+		margin-left: 25%;
+	}
+
+	.offset-30 {
+		margin-left: 30%;
+	}
+
+	.offset-33 {
+		margin-left: 33.33333333333333%;
+	}
+
+	.offset-40 {
+		margin-left: 40%;
+	}
+
+	.offset-50 {
+		margin-left: 50%;
+	}
+
+	.offset-60 {
+		margin-left: 60%;
+	}
+
+	.offset-66 {
+		margin-left: 66.66666666666666%;
+	}
+
+	.offset-70 {
+		margin-left: 70%;
+	}
+
+	.offset-75 {
+		margin-left: 75%;
+	}
+
+	.offset-80 {
+		margin-left: 80%;
+	}
+
+	.offset-90 {
+		margin-left: 90%;
+	}
+
+}
+
+/*
+
+@media (min-width: 1200px) {
+	
+	.container {
+		max-width: 1170px;
+	}
+
+}
+
+*/
+
+/**/
+
+/* ==================================================================
+Basic
+================================================================== */
+
+body {
+	background: #ffffff;
+	color: #555555;
+}
+
+/* ==================================================================
+Typography
+================================================================== */
+
+h1 {
+	color: #ffffff;
+	border-color: #ffffff;
+}
+
+h2 {
+	color: #ffffff;
+	border-color: #ffffff;
+}
+
+h4 {
+	color: #990000;
+}
+
+h5 {
+	color: #ffcc66;
+}
+
+h6 {
+	color: #a9a9a9;
+}
+
+/* ==================================================================
+Links
+================================================================== */
+
+a:hover, a:focus {
+	color: #555555;
+}
+
+a.button:hover {
+	border-color: #ecc117;
+}
+
+p a {
+	color: #990000;
+}
+
+/* ==================================================================
+Forms
+================================================================== */
+
+label {
+	color: #404040;
+}
+
+input, textarea, select, button {
+	background: #ffffff;
+	color: #242424;
+	border: 1px solid #e4e4e4;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+	border-color: #990000;
+}
+
+input[type="submit"], button, a.button {
+	color: #ffffff;
+	background-color: #af0909;
+	background: -webkit-linear-gradient(#af0909,#670101);
+	background: -moz-linear-gradient(#af0909,#670101);
+	background: -ms-linear-gradient(#af0909,#670101);
+	background: -o-linear-gradient(#af0909,#670101);
+	background: linear-gradient(#af0909,#670101);
+	box-shadow: inset 0px 1px 0px #bf4141, inset 0 -1px 2px #2f0000;
+}
+
+input[type="submit"]:hover, button:hover, a.button:hover {
+	color: #ffffff;
+	background-color: #a60707;
+	background: -webkit-linear-gradient(#a60707,#620101);
+	background: -moz-linear-gradient(#a60707,#620101);
+	background: -ms-linear-gradient(#a60707,#620101);
+	background: -o-linear-gradient(#a60707,#620101);
+	background: linear-gradient(#a60707,#620101);
+}
+
+/* ==================================================================
+Preloader
+================================================================== */
+
+.preloader {
+	color: #333333;
+}
+
+.preloader-spinner {
+	border: 2px solid #dbdbdb;
+	border-top: 2px solid #990000;
+}
+
+/* ==================================================================
+Intro
+================================================================== */
+
+.intro {
+	color: #ffffff;
+	background: url(../images/background-2.jpg) top center no-repeat;
+}
+
+ul.intro-features li {
+	background: rgba(0,0,0,0.2);
+}
+
+.text-column {
+	padding-bottom: 125px;
+}
+
+.form-column {
+	margin-top: -590px;
+}
+
+/* ==================================================================
+Main Form
+================================================================== */
+
+.main-form {
+	background: #fbfaef;
+	background: -webkit-linear-gradient(#fbfaef,#deddd3);
+	background:    -moz-linear-gradient(#fbfaef,#deddd3);
+	background:         linear-gradient(#fbfaef,#deddd3);
+	background:     -ms-linear-gradient(#fbfaef,#deddd3);
+	background:      -o-linear-gradient(#fbfaef,#deddd3);
+	color: #696969;
+}
+
+.submit-arrow {
+	color: #ffffff;
+	background: url(../images/arrow-brown.png) top right no-repeat;
+}
+
+.submit-arrow span {
+	color: #ffcc66;
+}
+
+.disclaimer {
+	color: #a9a9a9;
+}
+
+/* ==================================================================
+Contact Form
+================================================================== */
+
+.contact-form {
+	border: 1px solid #cccccc;
+}
+
+/* ==================================================================
+Thanks Popup
+================================================================== */
+
+.thanks-popup {
+	background: #ffffff;
+}
+
+.thanks-popup .thanks-heading {
+	background: url(../images/thanks-heading-background-2.jpg) center center no-repeat;
+}
+
+.thanks-popup button.mfp-close:hover {
+	color: #ffffff;
+}
+
+/* ==================================================================
+Hero
+================================================================== */
+
+.hero h3 {
+	color: #000000;
+}
+
+.hero h3 span {
+	color: #990000;
+}
+
+/* ==================================================================
+Icon Block
+================================================================== */
+
+.icon-block i {
+	background: #ebe9d9;
+	color: #333333;
+}
+
+/* ==================================================================
+Pricing Table
+================================================================== */
+
+.pricing-table {
+	border: 1px solid #e3e3e3;
+}
+
+.pricing-table.featured {
+	border-color: #990000;
+}
+
+.pricing-table .table-title {
+	border-bottom: 1px solid #e3e3e3;
+}
+
+.pricing-table .table-price {
+	border-bottom: 1px solid #e3e3e3;
+	color: #000000;
+}
+
+.pricing-table ul.table-features li {
+	border-color: #e3e3e3;
+}
+
+.pricing-table ul.table-features li:nth-child(even) {
+	background: #f6f6f6;
+}
+
+/* ==================================================================
+Testimonial
+================================================================== */
+
+.testimonial-block {
+	border: 1px solid #e3e3e3;
+}
+
+.testimonial-block p.testimonial {
+	color: #000000;
+}
+
+.testimonial-block p.author span {
+	color: #990000;
+}
+
+/* ==================================================================
+Bottom CTA
+================================================================== */
+
+.bottom-cta {
+	background: url(../images/background-2.jpg) center center no-repeat;
+}
